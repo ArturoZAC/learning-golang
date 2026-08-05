@@ -1,0 +1,15 @@
+# Binarios compilados (NUNCA se suben a git)
+*.exe
+*.exe~
+*.dll
+bin/
+dist/
+
+# Secretos (importante desde la Fase 7-8 cuando tengas DB)
+.env
+.env.local
+
+# Basura de editor/OS
+.DS_Store
+.vscode/
+.idea/
